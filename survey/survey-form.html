@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="style.css">
+
+	<title>Volleyball Survey</title>
+
+</head>
+<body>
+
+<div class="main">
+<h1 id="title">Volleyball Survey</h1>
+<p id="description">This is a Volleyball survey. Give us your thoughts on Volleyball in the town.</p>
+
+<form id="survey-form">
+	<div class="group">
+	    <label id="name-label" for="name">Name:</label><br>
+    	<input class="field" id="name" type="text" placeholder="Enter your name." required><br>
+    	<label id="email-label" for="email">Email:</label><br>
+    	<input class="field" id="email" type="email" placeholder="Enter your Email."  required><br>
+    	<label id="number-label" for="number">Age:</label><br>
+    	<input class="field" id="number" type="number" min="8" max="100" placeholder="How old are you?"><br>
+	</div>
+
+    <div class="group">
+		<label for="dropdown">How often do you play Volleyball?</label>
+		<select class="field" id="dropdown">
+    		<option selected disabled  >Select an option</option>
+			<option value="daily" >Everyday</option>
+    		<option value="often" >Often</option>
+    		<option value="sometimes" >Sometimes</option>
+    		<option value="rarely" >Rarely</option>
+		</select><br>
+    </div>
+
+    <div class="group">
+        <label for="gametype">What Volleyball do you like?</label><br>
+        <input name="gametype" type="radio" value="beach">Beach Volleyball.<br>
+        <input name="gametype" type="radio" value="court">Court Volleyball.<br>
+        <input name="gametype" type="radio" value="both">Both.<br>
+	</div>
+
+    <div class="group">
+        <label for="interest">How did you know about Volleyball?</label><br>
+        <input name="interest" type="checkbox" value="friend">A friend told me.<br>
+        <input name="interest" type="checkbox" value="tv">I saw it on TV.<br>
+        <input name="interest" type="checkbox" value="radio">I heared about it on the radio.<br>
+        <input name="interest" type="checkbox" value="other">Other source.<br>
+	</div>
+
+     <div class="group">
+        <label for="comment">If you have a comment enter it here:</label><br>
+        <textarea class="field" placeholder="Enter your comment."></textarea><br>
+     </div>
+
+	 <button id="submit" type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
