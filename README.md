@@ -1,2 +1,2 @@
-# volleyballdoc
-my freecodecamp projects in the Responsive web design section
+# freecodecamp projects
+my freecodecamp projects in the Responsive web design section currently
