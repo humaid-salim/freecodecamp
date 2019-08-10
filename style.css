@@ -1,0 +1,99 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  
+}
+
+main {
+  margin-left: 400px;
+}
+
+#navbar  {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top:0;
+  height: 100%;
+  padding: 20px;
+  background-color: greenyellow;
+  min-width: 250px;
+}
+
+#navbar a {
+  color: inherit;
+  font-size: 0.9em;
+  text-decoration-line: none;
+  background-color: white;
+  max-width: 250px;
+  margin: 20px 10% -15px 10%;
+  padding: 2px;
+  border-radius: 5px;
+    
+}
+
+#navbar header {
+  font-family: "Merriweather", serif;
+}
+
+img {
+  width: 175px;
+  margin-top: 50px;
+  align-self: center;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+}
+
+sub {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+code {
+  background-color: greenyellow;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  #navbar {
+    font-size: 0.5em;
+    top: 0px;
+    height: 130px;
+    width: 100%;
+    display:flex;
+  }
+  
+  main {
+    font-size: 0.6em;
+    margin: 180px auto
+  }
+  
+  a {
+    
+    
+  }
+  
+  
+  #navbar img, sub{
+    display: none;
+  }
+}
