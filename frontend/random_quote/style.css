@@ -1,0 +1,17 @@
+body {
+  padding: 10%;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: auto;
+  background-color: grey;
+  width: 80%;
+  padding: 15px;
+}
+
+small {
+  text-align: right;
+}
