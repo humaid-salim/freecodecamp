@@ -18,16 +18,24 @@ const quoteObj = (arr) => {
 // ???
 const setQuote = () => {
   let obj = quoteObj(sayings);
-  $("#text").text(obj.saying);
-  $("#auther").text(obj.sayer);
+  $("#author").fadeOut(function() {
+    $(this).text(obj.sayer);
+    $(this).fadeIn();
+  })
+
+  $("#text").fadeOut( function() {
+    $(this).text(obj.saying);
+    $(this).fadeIn();
+  });
+
 }
 
 // when the document is ready
 // I can click the new Quote
 // button.
 $(document).ready(function(){
+  setQuote();
   $("#new-quote").click(function () {
     setQuote();
-    console.log("button is working")
   });
 });
