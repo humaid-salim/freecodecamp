@@ -8,5 +8,7 @@ work in progress.
 ### to do:
 - ~basic structure.~
 - ~add Markdown parser.~
-- style page.
+- ~style page.~
+- ~add reset button.~
+- add default text.
 - (to be added).
