@@ -6,5 +6,7 @@ freecodecamp front-end libraries section.
 work in progress.
 
 ### to do:
-- basic structure.
--(to be added).
+- ~basic structure.~
+- ~add Markdown parser.~
+- style page.
+- (to be added).
