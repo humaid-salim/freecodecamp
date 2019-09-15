@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+   <head>
+      <meta charset="utf-8">
+      <title>Markdown Previewer</title>
+      <link rel="stylesheet" href="./style.css">
+      <script type="text/javascript" src="./functionality.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js"></script>
+   </head>
+
+   <body>
+      <main>
+         <div id="nav">
+            <h3>Markdown Previewer</h3>
+            <button type="button" onclick="reset(); view()">reset</button>
+         </div>
+         <textarea id="editor" placeholder="Write some Markdown." oninput="view()"></textarea>
+         <div id="preview"></div>
+      </main>
+   </body>
+
+</html>
